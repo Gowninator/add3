@@ -3,8 +3,8 @@
 import React, { useState } from 'react';
 import styles from './co2-kon.module.css';
 import Link from 'next/link';
-import Header from '@/app/components/header';
-import Footer from '@/app/components/footer';
+import Header from '../../components/header';
+import Footer from '../../components/footer';
 
 const Luftskifte: React.FC = () => {
   //1418151919
