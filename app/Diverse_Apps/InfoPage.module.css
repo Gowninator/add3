@@ -1,0 +1,65 @@
+/* InfoPage.module.css */
+
+.pageContainer {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.mainContent {
+  flex: 1;
+  padding: 10px;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 10px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  border-radius: 10px;
+}
+
+.heading {
+  text-align: center;
+  color: #000000;
+  margin-bottom: 10px;
+  font-size: 1.5em;
+}
+
+.tekstBox {
+  margin-bottom: 0px;
+}
+.appTitle {
+  line-height: 1;
+  color: #000000;
+  margin-bottom: 5px;
+  text-decoration: underline;
+  cursor: pointer;
+  white-space: nowrap;
+  font-weight: bold;
+}
+
+
+.appTitleVersion {
+  font-size: 0.6em; /* Juster størrelsen efter behov */
+  color: hsl(0, 0%, 0%); /* Juster farven hvis nødvendigt */
+}
+
+/* Hover-effekt for hele .appTitle elementet */
+.appTitle:hover {
+  color: rgb(169, 169, 169);
+}
+
+/* Hover-effekt for .appTitleVersion når den er indenfor .appTitle */
+.appTitle:hover .appTitleVersion {
+  color: rgb(169, 169, 169);
+}
+
+
+.appBeskrivelse {
+  font-size: 1em;
+  color: rgb(0, 0, 0);
+  line-height: 1.5;
+  margin-top: 0%;
+}

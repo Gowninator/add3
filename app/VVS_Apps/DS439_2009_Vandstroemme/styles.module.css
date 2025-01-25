@@ -1,0 +1,124 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centerer indhold horisontalt */
+  justify-content: center; /* Centerer indhold vertikalt (kan kræve højde for at være synlig) */
+  padding: 1em; /* Tilføjer lidt plads omkring containeren */
+  border: 1px;
+}
+  
+.navbar {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 20px;
+  gap: 10px; /* Add space between buttons */
+}
+
+.HKnap {
+  color: rgb(255, 255, 255);
+  font-size: small;
+  font-family: Verdana, Tahoma, sans-serif;
+  background-color: rgb(0, 0, 0);
+  flex-direction: column;
+  justify-content: center;
+  border: 2px solid black;
+  padding: 0.2rem;
+  width: 7rem;
+  border-radius: 5px;
+}
+
+.HKnap:hover {
+  background-color: rgb(135, 135, 135);
+  border: 2px solid rgb(103, 103, 103);
+}
+
+.teoriBox {
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  max-width: 700px;
+}
+
+.teoriBox h3 {
+  margin-top: 0;
+  color: black;
+}
+
+.tableWrapper {
+  border-collapse: collapse;
+  color: rgb(255, 255, 255);
+}
+
+/* Border for alle tabelceller og tabelhoveder */
+.tableWrapper,
+.tableWrapper th,
+.tableWrapper td {
+  border: 1px solid rgb(0, 0, 0);
+}
+
+/* Tabelhovedere */
+.tableWrapper th {
+  padding: 1px;
+  text-align: center;
+  color: white; /* Tekstfarve for tabelhoveder */
+  font-weight: bold; /* Fed skrift */
+  background-color: rgb(69, 69, 69); /* Standard baggrundsfarve */
+}
+
+/* Specifik styling for tabelhovedrækker */
+.tableWrapper thead tr {
+  border-bottom: 1px solid black; /* Tykkere kant under tabelhovedrækken */
+}
+/* Kolonne type 2 overskrifter */
+.col2 {
+    padding: 5px; /* Afstand mellem tekst og kant */
+    background-color: rgb(69, 69, 69); /* Rød baggrundsfarve */
+    border: 1px solid black; /* Sort kant */
+}
+.col3 {
+  padding: 10px; /* Afstand mellem tekst og kant */
+  background-color: rgb(69, 69, 69); /* Rød baggrundsfarve */
+  width: 8em; /* Øg bredden */
+  border: 1px solid black; /* Sort kant */
+}
+
+/* Kolonner input indstillinger */
+.input1 {
+    font-size: 16px;
+    text-align: center;
+    border: 1px solid black;
+    background-color: #fff;
+    color: #000;
+      
+}
+.input1 input {
+    width: 3em;
+    font-size: 16px;
+    text-align: center;
+    border: 0.0001px solid black;
+    background-color: #fff;
+    color: #000;
+        
+}
+.input2 { 
+  text-align: left;
+  border: 1px solid black;
+  background-color: hsl(0, 0%, 70%);
+  color: #000;
+  margin: 5px;
+    
+}
+.input3 { 
+  text-align: center;
+  border: 1px solid black;
+  background-color: hsl(0, 0%, 70%);
+  color: #000;
+  margin: 5px;
+    
+}
+
+.sum1 {
+  text-align: center;
+}

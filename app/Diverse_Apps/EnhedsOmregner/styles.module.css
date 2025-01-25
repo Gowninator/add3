@@ -1,0 +1,86 @@
+.navbar {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 20px;
+  gap: 10px;
+}
+
+.HKnap {
+  color: white;
+  font-size: small;
+  font-family: Verdana, Tahoma, sans-serif;
+  background-color: black;
+  flex-direction: column;
+  justify-content: center;
+  border: 2px solid black; /* Tilføj en sort kant på 2px */
+  padding: 0.2rem; /* Tilføj 0.2rem padding */
+  width: 7rem; /* Sæt bredden til 7rem */
+  border-radius: 5px; /* Rund hjørnerne med 5px */
+}
+
+.HKnap:hover {
+  background-color: rgb(135, 135, 135); /* Skift baggrundsfarve ved hover til grå */
+  border: 2px solid rgb(103, 103, 103); /* Skift kantfarve ved hover til mørkegrå */
+}
+
+.container1 {
+  justify-content: center; /* Centrer kolonnerne horisontalt */
+  text-align: center; /* Centrer tekst i containeren */
+}
+.container {
+  max-width: 600px; /* Sæt maksimal bredde til 600px */
+  margin: 0 auto; /* Centrer containeren horisontalt */
+  padding: 20px; /* Tilføj 20px padding */
+  border: 0px solid #ccc; /* Tilføj en grå kant */
+  border-radius: 8px; /* Rund hjørnerne med 8px */
+  display: grid; /* Brug grid layout */
+  grid-template-columns: repeat(3, auto); /* To kolonner med automatisk bredde */
+  gap: 20px; /* Maksimal afstand mellem kolonnerne */
+  justify-content: center; /* Centrer kolonnerne horisontalt */
+  text-align: center; /* Centrer tekst i containeren */
+}
+
+@media (max-width: 700px) {
+  .container {
+    grid-template-columns: 1fr; /* Skift til en kolonne ved skærmbredde under 700px */
+  }
+}
+
+.inputGroup {
+  display: flex; /* Brug flexbox layout */
+  width: 250px; /* Sæt bredden til 250px */
+  padding: 20px; /* Tilføj 20px padding */
+  flex-direction: column; /* Arranger elementer i en kolonne */
+  gap: 10px; /* Tilføj 10px mellemrum mellem elementer */
+  border: 1px solid #ccc; /* Tilføj en grå kant */
+  border-radius: 8px; /* Rund hjørnerne med 8px */
+  align-items: right; /* Centrer elementer i kolonnen til højre */
+  text-align: center; /* Centrer tekst i kolonnen */
+}
+
+.inputField {
+  display: inline-flex;
+  justify-content: right;
+  align-items: center;
+}
+
+.inputField label {
+  color: white;
+}
+
+.inputField input {
+  width: 40%;
+  padding: 8px;
+  margin-left: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.inactive {
+  background-color: #ccc;
+}
+
+.active {
+  background-color: #ffffff;
+}
+

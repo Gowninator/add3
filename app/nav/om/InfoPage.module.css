@@ -1,0 +1,42 @@
+/* InfoPage.module.css */
+
+.pageContainer {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.mainContent {
+  flex: 1;
+  padding: 10px;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 10px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  border-radius: 10px;
+}
+
+.heading {
+  text-align: center;
+  color: #000000;
+  margin-bottom: 1px;
+  font-size: 1.5em;
+}
+
+.questionTitle {
+  font-size: 1.2em;
+  color: #000000;
+  margin-bottom: 5px;
+}
+
+.tekst {
+  font-size: 1em;
+  color: rgb(0, 0, 0);
+  line-height: 1.5;
+}
+
+

@@ -1,0 +1,186 @@
+/* styles.module.css */
+/* Hjem knap */
+.HKnap {
+  color: rgb(255, 255, 255);
+  font-size: small;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: rgb(0, 0, 0);
+  flex-direction: column;
+  justify-content: center;
+  border: 2px solid black;
+  padding: 0.2rem;
+  width: auto;
+  border-radius: 5px;
+}
+
+.HKnap:hover {
+  background-color: rgb(135, 135, 135);
+  border: 2px solid rgb(103, 103, 103);
+}
+/* Funktion knap */
+.FKnap {
+  background-color: #ffffff; /* Grøn baggrund */
+  border: 1px solid #000000; /* Sort kant */
+  color: rgb(0, 0, 0); /* Hvid tekstfarve */
+  padding: 5px 10px; /* Indre afstand */
+  text-align: center; /* Centreret tekst */
+  text-decoration: none; /* Ingen understregning */
+  display: inline-block; /* Inline-block for korrekt placering */
+  font-size: 12px; /* Fontstørrelse */
+  margin: 4px 2px; /* Ydre afstand */
+  cursor: pointer; /* Hånd cursor ved hover */
+  border-radius: 5px; /* Ingen afrunding */
+  transition-duration: 0.4s; /* Glidende overgang */
+}
+
+.FKnap:hover {
+  background-color: #aeaeae; /* Mørkere grøn ved hover */
+}
+
+.inputMaksGruppe {
+  border: 1px solid #000000;
+  border-radius: 0px;
+  padding: 3px;
+  width: 220px;
+  background-color: rgb(69, 69, 69);
+  color: white;
+}
+
+.inputMaks {
+  display: flex;
+  max-width: auto;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.inputFMaks {
+  width: 20%;
+  box-sizing: border-box;
+  padding: 5px;
+}
+
+.container {
+  max-width: 900px;
+  place-content: left;
+  margin: 2px;
+  
+}
+
+/* Generel tabelstiling */
+.tableWrapper {
+  width: 10em;
+  border-collapse: collapse;
+  color: rgb(255, 255, 255);
+}
+
+/* Border for alle tabelceller og tabelhoveder */
+.tableWrapper,
+.tableWrapper th,
+.tableWrapper td {
+  border: 1px solid rgb(0, 0, 0);
+}
+
+/* Tabelhovedere */
+.tableWrapper th {
+  padding: 1px;
+  text-align: center;
+  color: white; /* Tekstfarve for tabelhoveder */
+  font-weight: bold; /* Fed skrift */
+  background-color: rgb(69, 69, 69); /* Standard baggrundsfarve */
+}
+
+/* Specifik styling for tabelhovedrækker */
+.tableWrapper thead tr {
+  border-bottom: 1px solid black; /* Tykkere kant under tabelhovedrækken */
+}
+
+/* Kolonne type 1 overskrifter */
+.col1 {
+  background-color: blanchedalmond; /* Lys farve for kolonne type 1 */
+}
+
+/* Kolonne type 2 overskrifter */
+.col2 {
+  font-size: smaller;
+  background-color: hsl(0, 0%, 70%); /* Mørkere farve for kolonne type 2 */
+}
+
+/* Tabeldata */
+.tableWrapper td {
+  padding: 0px;
+  text-align: center;
+}
+
+/* kolonner input indstillinger */
+.input1 {
+  width: 8em;
+  box-sizing: border-box;
+  padding: 5px;
+  color: rgb(0, 0, 0);
+  border: 1px;
+  background-color: rgb(255, 255, 255);
+}
+
+.input2 {
+  width: 7em;
+  box-sizing: border-box;
+  padding: 5px;
+  color: rgb(0, 0, 0);
+  border: 1px;
+  background-color: rgb(222, 222, 222);
+}
+
+.highValue {
+  width: 8.5em;
+  box-sizing: border-box;
+  padding: 5px;
+  color: red;
+  border: 1px;
+  background-color: rgb(222, 222, 222);
+}
+
+.lowValue {
+  width: 8.5em;
+  box-sizing: border-box;
+  padding: 5px;
+  color: black;
+  border: 1px;
+  background-color: rgb(222, 222, 222);
+}
+
+.greenButton {
+  background-color: green;
+  border-radius: 5px; /* Ingen afrunding */
+}
+
+.redButton {
+  background-color: red;
+}
+/* Overskrift */
+.heading {
+  color: #f2f2f2;
+}
+
+/* NAV Bar */
+.navbar {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 20px;
+  gap: 10px; /* mellemrum mellem knapper */
+}
+
+/* Teoriboks */
+.teoriBox {
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  max-width: 60em;
+}
+
+.teoriBox h3 {
+  margin-top: 0;
+  color: black;
+}
+
